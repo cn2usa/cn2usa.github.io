@@ -1,0 +1,46 @@
+.col {
+  margin-bottom: 2rem;  /* Adds space between rows of cards */
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;  /* Ensures all cards are the same height */
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+  margin-bottom: 2rem;  /* Adds space between cards */
+}
+
+
+
+.featureCard:hover {
+  transform: scale(1.05);
+}
+
+.card__image {
+  padding: 1rem 0;
+}
+
+.featureSvg {
+  height: 100px;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button--primary {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
